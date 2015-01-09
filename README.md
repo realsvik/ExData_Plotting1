@@ -57,6 +57,10 @@ functions.
 
 * Note that in this dataset missing values are coded as `?`.
 
+* To workaround the above points, function FilterMyElectroFile copies lines from dates 2007-02-01 and
+2007-02-02 into a new file, household_power_consumption2007.txt.
+* Function ReadMyElectrofile reads data from new file into a dataframe. It also adds a new Date column to the dataframe, which contains Date and Time as Date object.
+
 
 ## Making Plots
 
@@ -111,4 +115,27 @@ The four plots that you will need to construct are shown below.
 ### Plot 4
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+
+The results are shown below. 
+
+
+### Plot 1
+
+
+![plot of plot1](figure/plot1.png) 
+
+
+### Plot 2
+
+![plot plot2](figure/plot2.png) 
+
+
+### Plot 3
+
+![plot of plot3](figure/plot3.png) 
+
+
+### Plot 4
+
+![plot of plot4](figure/plot4.png) 
 
